@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-service
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+
+
